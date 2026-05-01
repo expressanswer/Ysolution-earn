@@ -22,22 +22,22 @@ theme = "PaperMod"
     name = "Home"
     url = "/"
     weight = 1
-    pageRef = ""
+    identifier = "nav-home"
   [[menu.main]]
     name = "VPN"
     url = "/categories/vpn/"
     weight = 2
-    pageRef = ""
+    identifier = "nav-vpn"
   [[menu.main]]
     name = "Hosting"
     url = "/categories/hosting/"
     weight = 3
-    pageRef = ""
+    identifier = "nav-hosting"
   [[menu.main]]
     name = "Dev Tools"
     url = "/categories/dev-tools/"
     weight = 4
-    pageRef = ""
+    identifier = "nav-devtools"
 
 [markup]
   [markup.goldmark]
