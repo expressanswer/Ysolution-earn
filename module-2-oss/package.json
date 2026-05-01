@@ -1,0 +1,25 @@
+{
+  "name": "pi-cli",
+  "version": "0.1.0",
+  "description": "CLI tool for affiliate sites — validate links, check frontmatter, count articles",
+  "main": "src/index.js",
+  "bin": {
+    "pi": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js --version && echo 'OK'"
+  },
+  "keywords": ["affiliate", "seo", "hugo", "markdown", "cli", "link-checker"],
+  "author": "Ysolution.earn <expressanswer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expressanswer/pi-cli"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

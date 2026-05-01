@@ -1,0 +1,55 @@
+[build]
+  publish = "public"
+  command = "hugo --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.124.0"
+  NODE_VERSION = "20"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Affiliate redirects
+[[redirects]]
+  from = "/go/nordvpn"
+  to = "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=expressanswer"
+  status = 302
+
+[[redirects]]
+  from = "/go/hostinger"
+  to = "https://www.hostinger.it/ref=expressanswer"
+  status = 302
+
+[[redirects]]
+  from = "/go/digitalocean"
+  to = "https://m.do.co/c/expressanswer"
+  status = 302
+
+[[redirects]]
+  from = "/go/semrush"
+  to = "https://www.semrush.com/partner/expressanswer/"
+  status = 302
+
+[[redirects]]
+  from = "/go/notion"
+  to = "https://affiliate.notion.so/expressanswer"
+  status = 302
+
+[[redirects]]
+  from = "/go/bitwarden"
+  to = "https://bitwarden.com/?ref=expressanswer"
+  status = 302
+
+[[redirects]]
+  from = "/go/vultr"
+  to = "https://www.vultr.com/?ref=expressanswer"
+  status = 302
+
+[[redirects]]
+  from = "/go/1password"
+  to = "https://1password.com/partner/expressanswer"
+  status = 302

@@ -1,0 +1,38 @@
+{
+  "model": "claude-sonnet-4-6",
+  "permissions": {
+    "allow": [
+      "Read(**/*)",
+      "Edit(module-1-digital/**/*)",
+      "Edit(module-2-oss/**/*)",
+      "Edit(module-3-affiliate/**/*)",
+      "Edit(scripts/**/*)",
+      "Edit(CLAUDE.md)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git status)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(bash scripts/*)",
+      "Bash(npm install)",
+      "Bash(npm test)",
+      "Bash(npm run *)",
+      "Bash(hugo *)",
+      "Bash(find * -type f)",
+      "Bash(wc -l *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(mkdir -p *)",
+      "Bash(date)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(rm -rf *)",
+      "Bash(sudo *)"
+    ]
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "HUGO_ENV": "production"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "project": "PI//OS — Passive Income Operating System",
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/status.sh)",
+      "Bash(bash scripts/audit.sh)",
+      "Bash(bash scripts/new-article.sh*)",
+      "Bash(bash scripts/weekly-review.sh)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git status)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(find module-3-affiliate*)",
+      "Bash(wc -l*)"
+    ]
+  },
+  "env": {
+    "PIIOS_VERSION": "0.1.0",
+    "SITE_URL": "https://ysolutionearn.netlify.app",
+    "GUMROAD_URL": "https://expressanswer.gumroad.com/l/notion-dev-os",
+    "AUTHOR": "Ysolution.earn"
+  }
+}
